@@ -1,0 +1,6 @@
+{
+  "name": "NOVA AI",
+  "description": "Production multi-model AI platform combining conversational intelligence, live web research, document RAG, long-term memory, voice AI, image studio, and sandboxed coding workspace.",
+  "requestFramePermissions": ["microphone"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

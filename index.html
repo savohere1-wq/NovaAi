@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NOVA AI — Unified Intelligence Platform</title>
+    <meta name="description" content="Multi-model AI chat, live web research, document intelligence, long-term memory, voice AI, image studio, and coding workspace." />
+    <meta property="og:title" content="NOVA AI — Unified Intelligence Platform" />
+    <meta property="og:description" content="Multi-model AI chat, live web research, document intelligence, long-term memory, voice AI, image studio, and coding workspace." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,400..700;1,9..40,400..700&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet" />
+    <script>
+      (function () {
+        try {
+          var saved = localStorage.getItem('nova_theme');
+          if (saved === 'light') {
+            document.documentElement.classList.remove('dark');
+          } else {
+            document.documentElement.classList.add('dark');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-[#FAFAFA] text-zinc-900 dark:bg-[#09090B] dark:text-zinc-50 antialiased selection:bg-zinc-500/30 selection:text-white">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
